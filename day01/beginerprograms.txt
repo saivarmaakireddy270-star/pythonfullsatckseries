@@ -1,0 +1,31 @@
+ #Write a program to check whether a number is even or odd.
+num = int(input("enter the value:"))
+if num%2==0:
+    print("even number")
+else:
+    print("odd number")
+    
+2#Write a program to check whether a number is positive, negative, or zero.
+value=int(input("enter the value:"))
+if value>0:
+    print("positive number")
+else:
+    print("negative number")
+
+3#Write a program to find the largest of two numbers.
+a=int(input("enter the value of a"))
+b=int(input("enter the value of b"))
+if a>b:
+     print(a,"largest number")
+else:
+    print(b,"smallest number")
+4#Write a program to check whether a year is a leap year.
+year=int(input("enter the year"))
+if year%4==0:
+    print("leap year")
+else:
+    print("not a leap year")
+    
+
+    
+    
