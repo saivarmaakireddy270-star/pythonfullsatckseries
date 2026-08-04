@@ -1,0 +1,36 @@
+ # input ,output formating ,Fstring programs i practiced the exam questions
+name = "raju"
+math = int(10)
+science = int(20)
+
+total = math + science
+print(f"Student: {name} | Total: {total}")
+
+title = input("book")
+price = float(input())
+quantity = int(input())
+total = price * quantity
+print(f"Book: {title} | Total: ${total:.2f}")
+print(total)
+
+tag1 = input()
+tag2 = input()
+tag3 = input()
+print(tag1, tag2, tag3, sep=" # ", end=" ###")
+
+name = input()
+mass = float(input())
+dist = int(input())
+print("Material: %s | Mass: %.2f | Orbit: %d" % (name, mass, dist))
+
+
+
+length = int(input())
+width = int(input())
+area = length*width
+print(f"area: {area}")
+
+temp = int(input("celsius"))
+print(f"temp: {temp:.2f}c")
+      
+
