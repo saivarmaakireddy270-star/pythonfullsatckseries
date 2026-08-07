@@ -1,5 +1,3 @@
-a=input("enter the string")
-if a==a[::-1]:
-    print("palindrome")
-else:
-    print("not a palindrome")
+numbers = tuple(map(int, input().split()))
+target = int(input())
+print(numbers.count(target), numbers.index(target))

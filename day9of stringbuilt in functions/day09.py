@@ -60,6 +60,7 @@ if credentials==credentials.title():
 else:
     print("invalid")
 '''
+'''
 #4Student Report Card
 #A school wants to display student information neatly.
 name=input("enter the student name")
@@ -70,6 +71,6 @@ totalmarks=a+b+c
 average=totalmarks/3
 print(totalmarks)
 print(average)
-
+'''
 
 
