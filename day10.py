@@ -27,7 +27,7 @@ else:
 '''
 #Take a character input and check if it is a vowel or consonant.
 character=input("vowel")
-if "ch" in "aeiouAEIOU":
+if "chr" in "aeiouAEIOU":
        print("vowel")
 else:
        print("not a vowel")
