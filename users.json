@@ -1,0 +1,16 @@
+[
+    {
+        "user_id": "U001",
+        "name": "Admin",
+        "email": "admin@gmail.com",
+        "password": "admin123",
+        "role": "admin"
+    },
+    {
+        "user_id": "U002",
+        "name": "sai",
+        "email": "saivarmaakireddy270@gmail.com",
+        "password": "Saivarma123",
+        "role": "job_seeker"
+    }
+]
